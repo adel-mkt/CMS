@@ -13,7 +13,6 @@ public class Note{
     }
 
     public double moyenne(double cc, double partiel, double examen){
-        System.out.println(this.coef_cc);
         return (this.coef_cc/100.) * cc + (this.coef_partiel/100.) * partiel + (this.coef_examen/100.) * examen;
     }
 
@@ -32,7 +31,6 @@ public class Note{
         System.out.println("\nLa moyenne de PFA est : " + String.format("%.2f", note.moyenne(cc, 0.0, examen)) + "/20\n");
     }
     else System.out.println("\nLes notes doivent être entre 0 et 20");
-    
-    
+    scan.close();
   }
 }
