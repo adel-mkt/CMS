@@ -15,9 +15,9 @@
 
 ## Description du projet
 Cette application a été développée par **Abdelrahman Bentahar**.  
-Le projet est soutenu par **Adel Mouktari**, **Abdelrahman Bentahar**, **Nael El Yazghi** et **Yani Bennai**.  
+Le projet est soutenu par **Adel Mokhtari**, **Abdelrahman Bentahar**, **Nael El Yazghi** et **Yani Bennai**.  
 
-L'application est conçue pour **la gestion des notes** dans un contexte scolaire ou universitaire.  
+L'application est conçue pour **la gestion des notes** dans un contexte universitaire.  
 
 ## Fonctionnalités principales
 
