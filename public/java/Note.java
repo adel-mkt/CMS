@@ -22,13 +22,15 @@ public class Note{
 
     System.out.println("Entre tes notes pour pfa: ");
     System.out.print("CC : ");
-    int cc = scan.nextInt();
+    double cc = scan.nextDouble();
     System.out.print("Examen : ");
-    int examen = scan.nextInt();
+    double examen = scan.nextDouble();
 
     if(cc >= 0 && cc <= 20 && examen >= 0 && examen <= 20){
-        Note note = new Note(40, 0, 60);
-        System.out.println("\nLa moyenne de PFA est : " + String.format("%.2f", note.moyenne(cc, 0.0, examen)) + "/20\n");
+        Note note = new Note(40, 0, 60); // pas de partiel en pfa
+        double moy = note.moyenne(cc, 0.0, examen);
+        System.out.println("\nLa moyenne de PFA est : " + String.format("%.2f", moy) + "/20\n");
+        System.out.println(moy >= 10 ? "UE validée" : "UE non validée");
     }
     else System.out.println("\nLes notes doivent être entre 0 et 20");
     scan.close();
